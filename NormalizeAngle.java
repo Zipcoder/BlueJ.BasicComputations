@@ -8,11 +8,7 @@ public class NormalizeAngle {
     }
 
     public Integer normalizeValueUsingFloorMod(Integer integer){
-        //double dummy = Math.floor( integer.toParse() );
         return java.lang.Math.floorMod(integer,360);
     }
 
-    public static void main(String[] args){
-
-    }
 }

@@ -24,8 +24,8 @@ public class LargestInteger {
     }
 
     public Integer findLargestNumberUsingMathMax(Integer[] integers){
-        int res1 = Math.max(integers[0],integers[1]);
-        res1 = Math.max(integers[2],res1);
+        int res1 = Math.max(integers[0], integers[1]);
+        res1 = Math.max(integers[2], res1);
         return res1;
     }
 }
